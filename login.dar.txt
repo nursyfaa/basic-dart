@@ -1,0 +1,14 @@
+import 'dart:io';
+void main(List<String> args) {
+  print("LOGIN DZIKRI LINK");
+  stdout.write('Masukan Nama : ');
+  var nama = stdin.readLineSync();
+  stdout.write('Password : ');
+  var password = stdin.readLineSync();
+
+    if(password == "kayaraya" ){
+    print("Selamat $nama Berhasil Login");
+  } else {
+    print("Maaf $nama Gagal Login");
+  }
+}
